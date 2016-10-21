@@ -12,6 +12,8 @@
 		278B6CE01DB9C784007F570C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278B6CDE1DB9C784007F570C /* Main.storyboard */; };
 		278B6CE21DB9C784007F570C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278B6CE11DB9C784007F570C /* Assets.xcassets */; };
 		278B6CE51DB9C784007F570C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278B6CE31DB9C784007F570C /* LaunchScreen.storyboard */; };
+		27EAE8CE1DBA16F1006A3835 /* GeometryFighter.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 27EAE8CD1DBA16F1006A3835 /* GeometryFighter.scnassets */; };
+		27EAE8D01DBA3559006A3835 /* ShapeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EAE8CF1DBA3559006A3835 /* ShapeType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		278B6CE11DB9C784007F570C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		278B6CE41DB9C784007F570C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		278B6CE61DB9C784007F570C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27EAE8CD1DBA16F1006A3835 /* GeometryFighter.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = GeometryFighter.scnassets; sourceTree = "<group>"; };
+		27EAE8CF1DBA3559006A3835 /* ShapeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		278B6CD71DB9C784007F570C /* GeometryFighter */ = {
 			isa = PBXGroup;
 			children = (
+				27EAE8CD1DBA16F1006A3835 /* GeometryFighter.scnassets */,
 				278B6CD81DB9C784007F570C /* AppDelegate.swift */,
 				278B6CDC1DB9C784007F570C /* GameViewController.swift */,
 				278B6CDE1DB9C784007F570C /* Main.storyboard */,
 				278B6CE11DB9C784007F570C /* Assets.xcassets */,
 				278B6CE31DB9C784007F570C /* LaunchScreen.storyboard */,
 				278B6CE61DB9C784007F570C /* Info.plist */,
+				27EAE8CF1DBA3559006A3835 /* ShapeType.swift */,
 			);
 			path = GeometryFighter;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 				278B6CE51DB9C784007F570C /* LaunchScreen.storyboard in Resources */,
 				278B6CE21DB9C784007F570C /* Assets.xcassets in Resources */,
 				278B6CE01DB9C784007F570C /* Main.storyboard in Resources */,
+				27EAE8CE1DBA16F1006A3835 /* GeometryFighter.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				278B6CDD1DB9C784007F570C /* GameViewController.swift in Sources */,
+				27EAE8D01DBA3559006A3835 /* ShapeType.swift in Sources */,
 				278B6CD91DB9C784007F570C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +310,7 @@
 				278B6CEB1DB9C784007F570C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
